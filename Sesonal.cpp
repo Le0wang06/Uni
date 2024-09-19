@@ -18,8 +18,8 @@ void getSeasonAndWeather(int month, int day) {
     if ((month == 12 && day >= 22) || (month == 1) || (month == 2 && day <= 21)) {
         season = "Winter";
         description = "Cold and snowy";
-        avgTemperature = -5;  // W1 average temperature
-        avgRainyDays = 12;    // W1 average rainy days
+        avgTemperature = -5;  
+        avgRainyDays = 12;    
         similarMonths = "W1, W2, W3";
     }
     else if ((month == 2 && day >= 22) || (month == 3 && day <= 19)) {
