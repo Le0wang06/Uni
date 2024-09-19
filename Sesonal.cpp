@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-// Function to check if the date is valid for the given month
+
 bool isValidDate(int month, int day) {
     if (month < 1 || month > 12 || day < 1) return false;
     int days_in_month[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
@@ -10,7 +10,7 @@ bool isValidDate(int month, int day) {
     return true;
 }
 
-// Function to determine the season, temperature, and rainy days based on birthday
+
 void getSeasonAndWeather(int month, int day) {
     string season, description, similarMonths;
     int avgTemperature, avgRainyDays;
