@@ -154,7 +154,6 @@ void start_soccer_simulation() {
     print_stats(2);
 }
 
-
 //main 
 
 int main() {
