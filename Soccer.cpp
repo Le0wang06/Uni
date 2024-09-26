@@ -71,6 +71,7 @@ bool process_foul_result(int team, bool close_to_goal) {
             cout << (team == 1 ? "Team B" : "Team A") << " committed a foul with no card.\n";
         }
     }
+    
     return false;
 }
 
