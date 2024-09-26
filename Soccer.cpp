@@ -12,6 +12,7 @@ int team_a_fouls = 0, team_b_fouls = 0;
 int team_a_yellow_cards = 0, team_b_yellow_cards = 0;
 int team_a_red_cards = 0, team_b_red_cards = 0;
 
+
 bool process_shot_result(int team) {
     int shot_outcome = rand() % 4;
 
