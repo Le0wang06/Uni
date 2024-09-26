@@ -75,6 +75,7 @@ bool process_foul_result(int team, bool close_to_goal) {
     return false;
 }
 
+
 void simulate_event(int event_num) {
     int event_type = rand() % 6 + 1;
 
@@ -161,3 +162,4 @@ int main() {
     start_soccer_simulation();
     return 0;
 }
+
